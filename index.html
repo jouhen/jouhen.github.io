@@ -1,0 +1,354 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>个人网站</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- 导航栏 -->
+    <header>
+        <nav>
+            <div class="container">
+                <h1 class="logo">我的网站</h1>
+                
+                <!-- 桌面导航 -->
+                <ul class="nav-links">
+                    <li><a href="#about">关于我</a></li>
+                    <li><a href="#skills">技能</a></li>
+                    <li><a href="#projects">项目</a></li>
+                    <li><a href="#contact">联系方式</a></li>
+                </ul>
+                
+                <!-- 移动端汉堡菜单 -->
+                <div class="mobile-nav">
+                    <input type="checkbox" id="menu-toggle" class="menu-toggle">
+                    <label for="menu-toggle" class="menu-button">
+                        <span class="bar"></span>
+                        <span class="bar"></span>
+                        <span class="bar"></span>
+                    </label>
+                    
+                    <ul class="mobile-nav-links">
+                        <li><a href="#about">关于我</a></li>
+                        <li><a href="#skills">技能</a></li>
+                        <li><a href="#projects">项目</a></li>
+                        <li><a href="#contact">联系方式</a></li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <!-- 英雄区域 -->
+    <section class="hero">
+        <div class="container">
+            <h2>你好，我是<span>欧桂萍</span></h2>
+            <p>一名前端开发者，热爱简洁、优雅的设计</p>
+            <a href="#projects" class="btn">查看我的项目</a>
+        </div>
+    </section>
+
+    <!-- 关于我 -->
+    <section id="about" class="about">
+        <div class="container">
+            <h2>关于我</h2>
+            <div class="about-content">
+                <div class="about-text">
+                    <p>我是一名前端开发者，专注于创建简洁、易用的网站。我热爱学习新技术，不断提升自己的技能，以适应快速发展的前端领域。</p>
+                    <p>我相信好的设计应该是简洁明了的，能够让用户轻松找到他们需要的信息。在我的工作中，我注重细节，追求完美，致力于打造最佳的用户体验。</p>
+                    <div class="about-highlights">
+                        <h4>我的优势</h4>
+                        <ul class="highlight-list">
+                            <li>熟练掌握HTML、CSS和JavaScript基础</li>
+                            <li>擅长响应式设计，适配各种设备</li>
+                            <li>注重代码质量和可维护性</li>
+                            <li>良好的问题分析和解决能力</li>
+                            <li>团队协作精神，良好的沟通能力</li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="about-image">
+                    <img src="花.jpg" alt="个人照片" class="avatar">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- 技能 -->
+    <section id="skills" class="skills">
+        <div class="container">
+            <h2>技能</h2>
+            
+            <!-- 前端技能 -->
+            <h3 class="skill-category">前端技能</h3>
+            <div class="skills-grid">
+                <div class="skill">
+                    <h4><span class="skill-icon">HT</span>HTML</h4>
+                    <p class="skill-description">熟练掌握HTML5语义化标签，能够编写结构清晰、符合标准的网页代码，包括表单、多媒体和无障碍设计。</p>
+                    <div class="skill-bar">
+                        <div class="skill-progress" style="width: 90%"></div>
+                    </div>
+                </div>
+                <div class="skill">
+                    <h4><span class="skill-icon">CS</span>CSS</h4>
+                    <p class="skill-description">精通CSS3，包括Flexbox、Grid布局、动画和过渡效果，能够实现各种复杂的页面样式和响应式设计。</p>
+                    <div class="skill-bar">
+                        <div class="skill-progress" style="width: 85%"></div>
+                    </div>
+                </div>
+                <div class="skill">
+                    <h4><span class="skill-icon">JS</span>JavaScript</h4>
+                    <p class="skill-description">掌握JavaScript基础，能够编写交互逻辑，处理DOM操作和事件，熟悉ES6+特性。</p>
+                    <div class="skill-bar">
+                        <div class="skill-progress" style="width: 70%"></div>
+                    </div>
+                </div>
+                <div class="skill">
+                    <h4><span class="skill-icon">RS</span>响应式设计</h4>
+                    <p class="skill-description">能够设计适配不同设备尺寸的网站，确保在手机、平板和桌面设备上都有良好的显示效果。</p>
+                    <div class="skill-bar">
+                        <div class="skill-progress" style="width: 80%"></div>
+                    </div>
+                </div>
+                <div class="skill">
+                    <h4><span class="skill-icon">BO</span>Bootstrap</h4>
+                    <p class="skill-description">熟悉Bootstrap框架，能够快速构建响应式网页，提高开发效率。</p>
+                    <div class="skill-bar">
+                        <div class="skill-progress" style="width: 75%"></div>
+                    </div>
+                </div>
+                <div class="skill">
+                    <h4><span class="skill-icon">SC</span>Sass/Less</h4>
+                    <p class="skill-description">了解CSS预处理器，能够使用Sass或Less编写更高效、可维护的CSS代码。</p>
+                    <div class="skill-bar">
+                        <div class="skill-progress" style="width: 65%"></div>
+                    </div>
+                </div>
+            </div>
+            
+            <!-- 设计技能 -->
+            <h3 class="skill-category">设计技能</h3>
+            <div class="skills-grid">
+                <div class="skill">
+                    <h4><span class="skill-icon">UI</span>UI设计基础</h4>
+                    <p class="skill-description">了解基本的UI设计原则，能够创建简洁、美观的用户界面，注重用户体验。</p>
+                    <div class="skill-bar">
+                        <div class="skill-progress" style="width: 75%"></div>
+                    </div>
+                </div>
+                <div class="skill">
+                    <h4><span class="skill-icon">CO</span>色彩搭配</h4>
+                    <p class="skill-description">能够根据品牌调性选择合适的色彩方案，营造良好的视觉体验和情感共鸣。</p>
+                    <div class="skill-bar">
+                        <div class="skill-progress" style="width: 70%"></div>
+                    </div>
+                </div>
+                <div class="skill">
+                    <h4><span class="skill-icon">TY</span>排版设计</h4>
+                    <p class="skill-description">了解字体选择和排版原则，能够创建清晰易读的文本布局，提升内容可读性。</p>
+                    <div class="skill-bar">
+                        <div class="skill-progress" style="width: 80%"></div>
+                    </div>
+                </div>
+                <div class="skill">
+                    <h4><span class="skill-icon">FI</span>Figma基础</h4>
+                    <p class="skill-description">能够使用Figma创建简单的设计原型和界面设计，进行设计协作和迭代。</p>
+                    <div class="skill-bar">
+                        <div class="skill-progress" style="width: 65%"></div>
+                    </div>
+                </div>
+                <div class="skill">
+                    <h4><span class="skill-icon">PS</span>Photoshop基础</h4>
+                    <p class="skill-description">能够使用Photoshop进行简单的图像处理和设计，包括裁剪、调整颜色和添加效果。</p>
+                    <div class="skill-bar">
+                        <div class="skill-progress" style="width: 60%"></div>
+                    </div>
+                </div>
+                <div class="skill">
+                    <h4><span class="skill-icon">IL</span>Illustrator基础</h4>
+                    <p class="skill-description">了解Illustrator的基本使用，能够创建简单的矢量图形和图标。</p>
+                    <div class="skill-bar">
+                        <div class="skill-progress" style="width: 55%"></div>
+                    </div>
+                </div>
+            </div>
+            
+            <!-- 工具与其他 -->
+            <h3 class="skill-category">工具与其他</h3>
+            <div class="skills-grid">
+                <div class="skill">
+                    <h4><span class="skill-icon">GI</span>Git</h4>
+                    <p class="skill-description">掌握Git版本控制，能够进行代码提交、分支管理和协作开发，熟悉GitHub操作。</p>
+                    <div class="skill-bar">
+                        <div class="skill-progress" style="width: 75%"></div>
+                    </div>
+                </div>
+                <div class="skill">
+                    <h4><span class="skill-icon">VS</span>VS Code</h4>
+                    <p class="skill-description">熟练使用VS Code进行开发，能够配置和使用各种插件提高开发效率。</p>
+                    <div class="skill-bar">
+                        <div class="skill-progress" style="width: 85%"></div>
+                    </div>
+                </div>
+                <div class="skill">
+                    <h4><span class="skill-icon">CD</span>Chrome DevTools</h4>
+                    <p class="skill-description">能够使用Chrome开发者工具进行调试、性能分析和样式调整，优化网站性能。</p>
+                    <div class="skill-bar">
+                        <div class="skill-progress" style="width: 80%"></div>
+                    </div>
+                </div>
+                <div class="skill">
+                    <h4><span class="skill-icon">LE</span>学习能力</h4>
+                    <p class="skill-description">具备快速学习新技术的能力，能够适应不断变化的前端开发环境，持续提升自己。</p>
+                    <div class="skill-bar">
+                        <div class="skill-progress" style="width: 90%"></div>
+                    </div>
+                </div>
+                <div class="skill">
+                    <h4><span class="skill-icon">TE</span>团队协作</h4>
+                    <p class="skill-description">能够与团队成员良好沟通，协作完成项目，遵循敏捷开发流程。</p>
+                    <div class="skill-bar">
+                        <div class="skill-progress" style="width: 85%"></div>
+                    </div>
+                </div>
+                <div class="skill">
+                    <h4><span class="skill-icon">PR</span>问题解决</h4>
+                    <p class="skill-description">具备良好的问题分析和解决能力，能够快速定位和修复代码中的问题。</p>
+                    <div class="skill-bar">
+                        <div class="skill-progress" style="width: 80%"></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- 项目 -->
+    <section id="projects" class="projects">
+        <div class="container">
+            <h2>项目</h2>
+            <div class="projects-grid">
+                <div class="project">
+                    <div class="project-image"></div>
+                    <div class="project-info">
+                        <div class="project-tags">
+                            <span class="tag">HTML</span>
+                            <span class="tag">CSS</span>
+                            <span class="tag">响应式设计</span>
+                        </div>
+                        <h3>个人博客网站</h3>
+                        <p>一个简洁美观的个人博客网站，使用HTML和CSS实现，包含文章列表、分类展示和响应式设计，适配各种设备尺寸。</p>
+                        <div class="project-links">
+                            <a href="#" class="btn btn-small">查看详情</a>
+                            <a href="#" class="btn btn-small btn-outline">GitHub</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="project">
+                    <div class="project-image"></div>
+                    <div class="project-info">
+                        <div class="project-tags">
+                            <span class="tag">HTML</span>
+                            <span class="tag">CSS</span>
+                            <span class="tag">JavaScript</span>
+                        </div>
+                        <h3>电商产品展示页面</h3>
+                        <p>一个现代化的电商产品展示页面，包含产品列表、筛选功能和响应式设计，使用JavaScript实现了简单的交互效果。</p>
+                        <div class="project-links">
+                            <a href="#" class="btn btn-small">查看详情</a>
+                            <a href="#" class="btn btn-small btn-outline">GitHub</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="project">
+                    <div class="project-image"></div>
+                    <div class="project-info">
+                        <div class="project-tags">
+                            <span class="tag">HTML</span>
+                            <span class="tag">CSS</span>
+                            <span class="tag">动画</span>
+                        </div>
+                        <h3>CSS动画展示平台</h3>
+                        <p>一个展示各种CSS动画效果的平台，包含过渡动画、变换效果和关键帧动画，可交互查看不同动画效果。</p>
+                        <div class="project-links">
+                            <a href="#" class="btn btn-small">查看详情</a>
+                            <a href="#" class="btn btn-small btn-outline">GitHub</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="project">
+                    <div class="project-image"></div>
+                    <div class="project-info">
+                        <div class="project-tags">
+                            <span class="tag">HTML</span>
+                            <span class="tag">CSS</span>
+                            <span class="tag">Bootstrap</span>
+                        </div>
+                        <h3>企业官网设计</h3>
+                        <p>使用Bootstrap框架开发的企业官网，包含首页、关于我们、产品展示和联系我们等模块，设计简洁专业。</p>
+                        <div class="project-links">
+                            <a href="#" class="btn btn-small">查看详情</a>
+                            <a href="#" class="btn btn-small btn-outline">GitHub</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="project">
+                    <div class="project-image"></div>
+                    <div class="project-info">
+                        <div class="project-tags">
+                            <span class="tag">HTML</span>
+                            <span class="tag">CSS</span>
+                            <span class="tag">网格布局</span>
+                        </div>
+                        <h3>作品集网站</h3>
+                        <p>一个展示个人作品的作品集网站，使用CSS Grid布局实现响应式设计，包含作品展示、个人简介和联系信息。</p>
+                        <div class="project-links">
+                            <a href="#" class="btn btn-small">查看详情</a>
+                            <a href="#" class="btn btn-small btn-outline">GitHub</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="project">
+                    <div class="project-image"></div>
+                    <div class="project-info">
+                        <div class="project-tags">
+                            <span class="tag">HTML</span>
+                            <span class="tag">CSS</span>
+                            <span class="tag">移动端优先</span>
+                        </div>
+                        <h3>移动端新闻应用</h3>
+                        <p>一个移动端优先设计的新闻应用，使用HTML和CSS实现，包含新闻列表、详情页面和响应式设计，适配各种移动设备。</p>
+                        <div class="project-links">
+                            <a href="#" class="btn btn-small">查看详情</a>
+                            <a href="#" class="btn btn-small btn-outline">GitHub</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- 联系方式 -->
+    <section id="contact" class="contact">
+        <div class="container">
+            <h2>联系方式</h2>
+            <div class="contact-info">
+                <p>如果你对我的工作感兴趣，欢迎通过以下方式联系我：</p>
+                <div class="contact-details">
+                    <p><strong>邮箱：</strong>2779131932@qq.com</p>
+                    <p><strong>电话：</strong>19132356267</p>
+                    <p><strong>GitHub：</strong>github.com/zhangsan</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- 页脚 -->
+    <footer>
+        <div class="container">
+            <p>&copy; 2026 欧桂萍. All rights reserved.</p>
+        </div>
+    </footer>
+</body>
+</html>
